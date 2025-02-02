@@ -1,0 +1,50 @@
+.mobile-product-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.mobile-product-card {
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.mobile-product-card:hover {
+  transform: translateX(5px);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.price-display {
+  cursor: pointer;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+
+.price-display:hover {
+  background-color: #f8f9fa;
+}
+
+.price-edit-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.price-input {
+  width: 100px;
+}
+
+@media (max-width: 768px) {
+  .price-input {
+    width: 80px;
+  }
+}
+
+.btn-link {
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  opacity: 0.8;
+}

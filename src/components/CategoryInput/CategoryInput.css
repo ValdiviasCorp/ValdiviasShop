@@ -1,0 +1,8 @@
+.category-input-container {
+  position: relative;
+}
+
+.form-select option[value="_custom_"] {
+  font-style: italic;
+  color: #666;
+}
